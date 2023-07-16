@@ -1,0 +1,21 @@
+:root{
+  --h-color: white;
+  --p-color: lightgray;
+  --highlight-color: lime;
+
+}
+
+
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  color: var(--h-color);
+  z-index: 99;
+  position: absolute;
+ 
+  display: grid;
+}
